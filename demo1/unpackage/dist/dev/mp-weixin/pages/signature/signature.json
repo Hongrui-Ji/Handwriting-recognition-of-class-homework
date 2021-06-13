@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "手写板",
+  "usingComponents": {
+    "htz-signature": "/components/htz-signature/htz-signature"
+  }
+}
