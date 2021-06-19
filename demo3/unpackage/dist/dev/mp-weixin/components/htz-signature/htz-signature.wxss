@@ -1,0 +1,119 @@
+
+.htz-signature-body {
+	position: fixed;
+	top: 0;
+	bottom: 100rpx;
+	left: 0;
+	width: 100%;
+}
+.htz-signature-body canvas {
+	width: 100%;
+	height: 100%;
+}
+.htz-signature-fixed-bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	color: #000;
+	z-index: 11;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-color: #fff;
+}
+.htz-signature-fixed-bottom .htz-signature-fixed-bottom-item {
+	-webkit-box-flex: 3;
+	-webkit-flex-grow: 3;
+	flex-grow: 3;
+	border-top: 1px solid #1890ff;
+	color: #1890ff;
+}
+.htz-signature-fixed-bottom view.sumbit {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	background-color: #1890ff;
+	color: #fff;
+}
+.htz-signature-tools {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.htz-signature-tools-item {
+	text-align: center;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	line-height: 35rpx;
+}
+.htz-signature-fixed-bottom-item view image {
+	width: 50rpx;
+	height: 50rpx;
+	padding-top: 10rpx;
+}
+.htz-signature-tools-item view {
+	font-size: 22rpx;
+}
+.htz-signature-color-main {
+	position: fixed;
+	bottom: 100rpx;
+	left: 0;
+	width: 710rpx;
+	/* height: 75rpx; */
+	z-index: 11;
+	padding: 25rpx 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	background-color: #fff;
+	border-top: 1px dashed #d9d9d9;
+	transition: display 2s;
+	-moz-transition: display 2s;
+	/* Firefox 4 */
+	-webkit-transition: display 2s;
+	/* Safari 和 Chrome */
+	-o-transition: display 2s;
+}
+.htz-signature-color-item {
+	width: 80rpx;
+	height: 80rpx;
+	background-color: #000000;
+	border-radius: 100px;
+	margin: 5px;
+	position: relative;
+}
+.htz-signature-lineWidth-item {
+	width: 80rpx;
+	height: 80rpx;
+	background-color: #fff;
+	border-radius: 100px;
+	margin: 5px;
+	position: relative;
+}
+.htz-signature-lineWidth-item.on {
+	border: 1px solid #d4a39e;
+}
+.htz-signature-color-item image {
+	display: none;
+}
+.htz-signature-color-item.on image {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50rpx;
+	height: 50rpx;
+	margin-top: -25rpx;
+	margin-left: -25rpx;
+}
+.black {
+	background-color: #000000 !important;
+}
+

@@ -1,0 +1,1 @@
+<view><button style="margin:20rpx;" type="primary" data-event-opts="{{[['tap',[['goto',['$event']]]]]}}" bindtap="__e">打开手写板</button><view style="margin:30rpx 20rpx 20rpx;font-size:36rpx;">结果 ：</view><image style="width:100%;" src="{{resultUrl}}" mode="widthFix"></image></view>
